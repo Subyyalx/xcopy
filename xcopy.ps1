@@ -4,7 +4,7 @@ Add-Type -AssemblyName System.Drawing
 
 # Initialize form
 $form = New-Object System.Windows.Forms.Form
-$form.Text = "File Sync Tool"
+$form.Text = "XavorCopy"
 $form.Size = New-Object System.Drawing.Size(500, 450)
 $form.StartPosition = "CenterScreen"
 
